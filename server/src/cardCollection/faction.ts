@@ -2655,4 +2655,467 @@ When you mend a **Wounded** character, you may discard a non-Title, non-Wraith c
     mental: 2,
     disciplines: { dominate: 1, oblivion: 1 },
   },
+
+  "hah-lucky": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Lucky",
+    text: md`
+    When you recruit a character, if they add any new Discipline(s) to your coterie, draw 1 card and all your foes' characters have -1 [shield] this turn.
+    `,
+    bloodPotency: 5,
+    physical: 1,
+    social: 1,
+    mental: 1,
+    illustrator: "Anastasiia Horbunova",
+    set: "Hunters & Hunted",
+    disciplines: { auspex: 1, potence: 1, presence: 1 },
+  },
+
+  "hah-benício": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Benício",
+    text: md`
+    **Discard 1 Library card:** Prevent 1 [damage] to target character in this party.
+    `,
+    bloodPotency: 4,
+    physical: 1,
+    social: 0,
+    mental: 1,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { celerity: 1, fortitude: 1, oblivion: 1 },
+  },
+
+  "hah-hope": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Hope",
+    text: md`
+    If you would lose or be forced to spend [prestige] during an attack, you may discard X cards to reduce that [prestige] loss/expenditure by X.
+    `,
+    bloodPotency: 4,
+    physical: 0,
+    social: 2,
+    mental: 0,
+    illustrator: "Adelijah Ocampo",
+    set: "Hunters & Hunted",
+    disciplines: { animalism: 1, "blood sorcery": 1, presence: 1 },
+  },
+
+  "hah-jorge-guerrero": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Jorge Guerrero",
+    text: `md
+    Attacker - **Discard 1 Library card:** This attack deals +1 [damage] to the target.
+    `,
+    bloodPotency: 3,
+    physical: 2,
+    social: 0,
+    mental: 0,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { dominate: 1, potence: 1 },
+  },
+
+"hah-prudence": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Prudence",
+    text: md`
+    Party - Attackers in the party have +2 [shield] while attacking.
+    `,
+    bloodPotency: 3,
+    physical: 0,
+    social: 0,
+    mental: 2,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+    disciplines: { obfuscate: 1, protean: 1},
+  },
+
+  "hah-judas": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Judas",
+    text: md`
+    When this character is defeated, you may **Burn this character:** Gain 1 [prestige].
+    `,
+    bloodPotency: 2,
+    physical: 1,
+    social: 0,
+    mental: 0,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+    disciplines: { celerity: 1, protean: 1},
+  },
+
+  "hah-thaddeus": {
+    stack: "faction",
+    clan: "caitiff",
+    name: "Thaddeus",
+    text: md`
+    When this character enters play, draw 1 card.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 1,
+    mental: 0,
+    illustrator: "Felipe Gaona",
+    set: "Hunters & Hunted",
+    disciplines: { "blood sorcery": 1, oblivion: 1 },
+  },
+
+  "hah-keondra": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Keondra",
+    text: md`
+    Attacker - This attack deals +1 [damage] to the target for each face-down card you control with 2+ [prestige] on it.
+    `,
+    bloodPotency: 6,
+    physical: 0,
+    social: 2,
+    mental: 1,
+    illustrator: "Anastasiia Horbunova",
+    set: "Hunters & Hunted",
+    disciplines: { obfuscate: 1, presence: 1, protean: 1 },
+  },
+
+  "hah-ceraph": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Ceraph",
+    text: md`(
+    +1 Influence for each character with [presence] in your coterie.
+    `,
+    bloodPotency: 5,
+    physical: 1,
+    social: 1,
+    mental: 1,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { presence: 1, protean: 1 },
+  },
+
+  "hah-matthew": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Matthew",
+    text: md`(
+    The first time you resolve a Conspiracy during each of your turns, gain 1 [prestige]. If you were the only contributor to it, gain 2 [prestige] instead.
+    `,
+    bloodPotency: 5,
+    physical: 2,
+    social: 1,
+    mental: 0,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { obfuscate: 1, protean: 1 },
+  },
+
+  "hah-gisele": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Gisele",
+    text: md`
+    **Guard**
+    When this character Blocks an attack, put a 'No Influence' token on the attacker.
+    `,
+    bloodPotency: 4,
+    physical: 1,
+    social: 0,
+    mental: 1,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { presence: 2 },
+  },
+
+  "hah-jimmy": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Jimmy",
+    text: md`
+    **Exhaust:** Put 1 [prestige] from target player's general supply on a face-down card you control. Use this ability only in The Streets.
+    `,
+    bloodPotency: 4,
+    physical: 0,
+    social: 1,
+    mental: 1,
+    illustrator: "Joyce Maureira",
+    set: "Hunters & Hunted",
+    disciplines: { obfuscate: 1, presence: 1 },
+  },
+
+  "hah-hakim-owusu": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Hakim Owusu",
+    text: md`
+    This character has +1 Influence for each Ongoing Scheme you control.
+    `,
+    bloodPotency: 3,
+    physical: 0,
+    social: 2,
+    mental: 0,
+    illustrator: "Felipe Gaona",
+    set: "Hunters & Hunted",
+    disciplines: {presence: 1 },
+  },
+
+  "hah-iara": {
+    stack: "faction",
+    clan: "ministry",
+    name: "Iara",
+    text: md`
+    Face-down cards you control cannot be targeted by foes.
+    `,
+    bloodPotency: 3,
+    physical: 0,
+    social: 0,
+    mental: 2,
+    illustrator: "Felipe Gaona",
+    set: "Hunters & Hunted",
+    disciplines: { obfuscate: 1},
+  },
+
+  "hah-evangeline": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Evangeline",
+    text: md`
+    **Hunter, True Faith**
+    Party - Attackers in this party deal +1 [damage] to their target if that target has 1+ [prestige] of your color on them.
+    `,
+    bloodPotency: 4,
+    physical: 0,
+    social: 2,
+    mental: 0,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+    disciplines: { library: 1, "repel the unnatural": 1, "sense the unnatural": 1, "thwart the unnatural": 1 },
+  },
+
+  "hah-florencia": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Florencia",
+    text: md`(
+    **Hunter**
+    Attacker - **Pay 1 [prestige]:** This attack deals +2 [damage] to the target. Use only if their Preemptive Strike defeated a character in your cell.
+    `,
+    bloodPotency: 3,
+    physical: 1,
+    social: 1,
+    mental: 0,
+    illustrator: "Adelijah Ocampo",
+    set: "Hunters & Hunted",
+    disciplines: { library: 1, "repel the unnatural": 1, "thwart the unnatural": 1 },
+  },
+
+  "hah-toquinho": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Toquinho",
+    text: md`
+    **Hunter, Guard**
+    When a character in your cell is defeated, ready each character in your cell.
+    `,
+    bloodPotency: 3,
+    physical: 1,
+    social: 0,
+    mental: 1,
+    illustrator: "Adelijah Ocampo",
+    set: "Hunters & Hunted",
+    disciplines: { "repel the unnatural": 1, "sense the unnatural": 1, "thwart the unnatural": 1 },
+  },
+
+  "hah-pregador": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Pregador",
+    text: md`(
+    **Hunter**
+    If ready, **Relentless, Pay 1 [prestige]:** Move to The Streets to Block a foe's non-[ranged] attack against any target.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 1,
+    mental: 0,
+    illustrator: "Mara Miranda-Escota",
+    set: "Hunters & Hunted",
+    disciplines: { "repel the unnatural": 1, "sense the unnatural": 1},
+  },
+
+"hah-sister-claire": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Sister Claire",
+    text: md`(
+    **Hunter**
+    Party - **Exhaust:** This attack deals +1 [damage] to the target.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 1,
+    mental: 0,
+    illustrator: "Adelijah Ocampo",
+    set: "Hunters & Hunted",
+    disciplines: { library: 1, "thwart the unnatural": 1 },
+  },
+
+  "hah-andres": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Andrés",
+    text: md`(
+    **Hunter**
+    When this character is defeated, target foe loses 1 [agenda].
+    `,
+    bloodPotency: 1,
+    physical: 1,
+    social: 0,
+    mental: 0,
+    illustrator: "Mico Dimagiba",
+    set: "Hunters & Hunted",
+    disciplines: { "repel the unnatural": 1 },
+  },
+
+  "hah-noriko": {
+    stack: "faction",
+    clan: "faithful",
+    name: "Noriko",
+    text: md`
+    **Hunter**
+    When this character is defeated, draw 1 card.
+    `,
+    bloodPotency: 0,
+    physical: 0,
+    social: 0,
+    mental: 1,
+    illustrator: "Mara Miranda-Escota",
+    set: "Hunters & Hunted",
+    disciplines: { library: 1 },
+  },
+
+  "hah-francisco": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Francisco",
+    text: md`
+    **Hunter** **Guard**
+    **Pay 1 [prestige]:** This character has +2 [shield] this attack
+    `,
+    bloodPotency: 3,
+    physical: 1,
+    social: 1,
+    mental: 0,
+    illustrator: "Irene Francisco",
+    set: "Hunters & Hunted",
+    disciplines: { "beast whisperer":1, global:1, "sense the unnatural": 1 },
+  },
+
+  "hah-jamie": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Jamie",
+    text: md`
+    **Hunter**
+    This character may be exhausted to Investigate while in their Hideout.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 0,
+    mental: 1,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+    disciplines: { global:1, library: 1 },
+  },
+
+  "hah-juliana": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Juliana",
+    text: md`
+    **Hunter**
+    Party - Characters in this party have +1 [shield] during your Action Phase.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 1,
+    mental: 0,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+    disciplines: { global:1, "sense the unnatural": 1 },
+  },
+  
+  "hah-maria-lopez": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Maria Lopez",
+    text: md`
+    **Hunter**
+    **Exhaust, Pay 1 [prestige]:** Deal 1 [social][damage] to target character for each Curse attached to it.
+    `,
+    bloodPotency: 4,
+    physical: 2,
+    social: 0,
+    mental: 0,
+    illustrator: "Adelijah Ocampo",
+    set: "Hunters & Hunted",
+    disciplines: { "beast whisperer": 1, global: 1, library: 1, "sense the unnatural": 1 },
+  },
+
+  "hah-rio": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Rio",
+    text: md`
+    **Hunter**
+    Attacker - This attack deals +1 [damage] to the target for every 2 Curses attached to it.
+    `,
+    bloodPotency: 2,
+    physical: 0,
+    social: 0,
+    mental: 1,
+    illustrator: "Irene Francisco",
+    set: "Hunters & Hunted",
+    disciplines: { "beast whisperer": 1, library: 1 },
+  },
+
+  "hah-ryan": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Ryan",
+    text: md`
+    **Hunter**
+    Attacker - At the end of this attack, you may **Pay 1 [prestige]:** Attach your Attack card to the target.
+    `,
+    bloodPotency: 4,
+    physical: 0,
+    social: 1,
+    mental: 1,
+    illustrator: "Mico Dimagiba",
+    set: "Hunters & Hunted",
+    disciplines: { "beast whisperer": 1, global:1, library: 1, "sense the unnatural": 1 },
+  },
+
+  "hah-sara": {
+    stack: "faction",
+    clan: "inquisitive",
+    name: "Sara",
+    text: md`
+    **Hunter**
+    When you exhaust this character to Investigate, add 1 additional [prestige] to the target from your general supply.
+    `,
+    bloodPotency: 3,
+    physical: 0,
+    social: 0,
+    mental: 2,
+    illustrator: "Irene Francisco",
+    set: "Hunters & Hunted",
+    disciplines: { global:1, library: 1, "sense the unnatural": 1 },
+  },
 };

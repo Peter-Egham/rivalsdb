@@ -42,15 +42,20 @@ export type CardSet =
   | "Heart of Europe"
   | "Conclave 22"
   | "Dragon & Rogue"
-  | "Justice & Mercy";
+  | "Justice & Mercy"
+  | "Hunters & Hunted";
 
 export type Clan =
   | "banu haqim"
   | "brujah"
+  | "caitiff"
+  | "faithful"
   | "gangrel"
   | "hecata"
+  | "inquisitive"
   | "lasombra"
   | "malkavian"
+  | "ministry"
   | "nosferatu"
   | "ravnos"
   | "salubri"
@@ -72,7 +77,13 @@ export type Discipline =
   | "potence"
   | "presence"
   | "protean"
-  | "thin-blood alchemy";
+  | "thin-blood alchemy"
+  | "beast whisperer"
+  | "library"
+  | "sense the unnatural"
+  | "repel the unnatural"
+  | "thwart the unnatural"
+  | "global"
 
 export type Illustrator =
   | ""
@@ -95,7 +106,8 @@ export type Illustrator =
   | "Marco Primo"
   | "The Creation Studio"
   | "Timothy Terrenal and Harvey Bunda"
-  | "Timothy Terrenal";
+  | "Timothy Terrenal"
+  | "Mico Dimagiba";
 
 export const md = (strings: TemplateStringsArray): string =>
   strings

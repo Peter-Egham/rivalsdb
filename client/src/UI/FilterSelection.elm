@@ -402,10 +402,14 @@ attackTypeIsAllowedStrict flags card =
 type alias Clans =
     { banuHaqim : Bool
     , brujah : Bool
+    , caitiff : Bool
+    , faithful : Bool
     , gangrel : Bool
     , hecata : Bool
+    , inquisitive : Bool
     , lasombra : Bool
     , malkavian : Bool
+    , ministry : Bool
     , nosferatu : Bool
     , ravnos : Bool
     , salubri : Bool
@@ -421,10 +425,14 @@ cleanClans : Clans
 cleanClans =
     { banuHaqim = False
     , brujah = False
+    , caitiff = False
+    , faithful = False
     , gangrel = False
     , hecata = False
+    , inquisitive = False
     , lasombra = False
     , malkavian = False
+    , ministry = False
     , nosferatu = False
     , ravnos = False
     , salubri = False
@@ -441,10 +449,14 @@ viewClans flags =
     div [ class "filterpicker" ]
         [ viewFlag (IconV2.clan IconV2.Standard Cl.BanuHaqim) (\old -> { old | banuHaqim = not old.banuHaqim }) flags.banuHaqim
         , viewFlag (IconV2.clan IconV2.Standard Cl.Brujah) (\old -> { old | brujah = not old.brujah }) flags.brujah
+        , viewFlag (IconV2.clan IconV2.Standard Cl.Caitiff) (\old -> { old | caitiff = not old.caitiff }) flags.caitiff
+        , viewFlag (IconV2.clan IconV2.Standard Cl.Faithful) (\old -> { old | faithful = not old.faithful }) flags.faithful
         , viewFlag (IconV2.clan IconV2.Standard Cl.Gangrel) (\old -> { old | gangrel = not old.gangrel }) flags.gangrel
         , viewFlag (IconV2.clan IconV2.Standard Cl.Hecata) (\old -> { old | hecata = not old.hecata }) flags.hecata
+        , viewFlag (IconV2.clan IconV2.Standard Cl.Inquisitive) (\old -> { old | inquisitive = not old.inquisitive }) flags.inquisitive
         , viewFlag (IconV2.clan IconV2.Standard Cl.Lasombra) (\old -> { old | lasombra = not old.lasombra }) flags.lasombra
         , viewFlag (IconV2.clan IconV2.Standard Cl.Malkavian) (\old -> { old | malkavian = not old.malkavian }) flags.malkavian
+        , viewFlag (IconV2.clan IconV2.Standard Cl.Ministry) (\old -> { old | ministry = not old.ministry }) flags.ministry
         , viewFlag (IconV2.clan IconV2.Standard Cl.Nosferatu) (\old -> { old | nosferatu = not old.nosferatu }) flags.nosferatu
         , viewFlag (IconV2.clan IconV2.Standard Cl.Ravnos) (\old -> { old | ravnos = not old.ravnos }) flags.ravnos
         , viewFlag (IconV2.clan IconV2.Standard Cl.Salubri) (\old -> { old | salubri = not old.salubri }) flags.salubri
@@ -462,10 +474,14 @@ clanIsAllowed flags card =
         matchClan clan =
             (clan == Cl.BanuHaqim && flags.banuHaqim)
                 || (clan == Cl.Brujah && flags.brujah)
+                || (clan == Cl.Caitiff && flags.caitiff)
+                || (clan == Cl.Faithful && flags.faithful)
                 || (clan == Cl.Gangrel && flags.gangrel)
                 || (clan == Cl.Hecata && flags.hecata)
+                || (clan == Cl.Inquisitive && flags.inquisitive)
                 || (clan == Cl.Lasombra && flags.lasombra)
                 || (clan == Cl.Malkavian && flags.malkavian)
+                || (clan == Cl.Ministry && flags.ministry)
                 || (clan == Cl.Nosferatu && flags.nosferatu)
                 || (clan == Cl.Ravnos && flags.ravnos)
                 || (clan == Cl.Salubri && flags.salubri)

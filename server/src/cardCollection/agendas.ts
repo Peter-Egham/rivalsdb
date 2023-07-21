@@ -356,4 +356,46 @@ If you reach 13 [agenda], you win!
     set: "Promo",
     stack: "agenda",
   },
+
+  "hah-the-snake-pit": {
+    name: "The Snake Pit",
+    text: md`
+At the start of your turn, if you control 1+ face-down card with 1+ [prestige], gain 1 [agenda]. 
+
+The first time you resolve a Conspiracy during each of your turns, gain 1 [agenda].
+    `,
+    illustrator: "Marco Primo",
+    set: "Hunters & Hunted",
+    stack: "agenda",
+  },
+
+  "hah-birds-of-a-different-feather": {
+    name: "Birds Of A Different Feather",
+    text: md`
+    At the start of your turn, if there are 6+ different Disciplines or Edges in your coterie, gain 1 [agenda].
+    `,
+    illustrator: "Mara Miranda-Escota",
+    set: "Hunters & Hunted",
+    stack: "agenda",
+  },
+
+  "hah-martyrdom": {
+    name: "Martyrdom",
+    text: md`
+    When a character you control is burned, gain 1 [agenda].
+    `,
+    illustrator: "Mara Miranda-Escota",
+    set: "Hunters & Hunted",
+    stack: "agenda",
+  },
+
+  "hah-observe-and-report": {
+    name: "Observe and Report",
+    text: md`
+    When you attach a card to a card you do not control, gain 1 [agenda].
+    `,
+    illustrator: "Mico Dimagiba",
+    set: "Hunters & Hunted",
+    stack: "agenda",
+  },
 };

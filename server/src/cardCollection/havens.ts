@@ -463,6 +463,7 @@ Characters in your Haven have +1 Secrecy.
     illustrator: "Felipe Gaona",
     set: "Promo",
   },
+
   "xxx-the-presidio": {
     stack: "haven",
     name: "The Presidio",
@@ -475,5 +476,53 @@ Your Leader has +1 [shield] vs **Aggravated** [damage].
     `,
     illustrator: "Marco Primo",
     set: "Promo",
+  },
+
+  "hah-fellowship-hall": {
+    stack: "haven",
+    name: "Fellowship Hall",
+    text: md`
+    Your characters have +1 Secrecy.
+    **Leader Ability**
+    The first time you recruit a character during each of your turns, gain 1 Unhosted Action.
+    `,
+    illustrator: "Marco Primo",
+    set: "Hunters & Hunted",
+  },
+
+  "hah-back-alley-clinic": {
+    stack: "haven",
+    name: "Back Alley Clinic",
+    text: `md
+    Your characters have +1 Secrecy.
+    **Leader Ability**
+    When a character you control is defeated by non-**Aggravted** [damage], if you control no characters in recovery, you may put the defeated character into recovery.
+    `,
+    illustrator: "Cold Castle Studios",
+    set: "Hunters & Hunted",
+  },
+
+  "hah-the-temple-of-set": {
+    stack: "haven",
+    name: "The Temple of Set",
+    text: md`
+    Characters in your Haven have +1 Secrecy.
+    **Leader Ability**
+    When your Leader defeats a character, you may put 1 [prestige] from your general supply on each face-down card you control.
+    `,
+    illustrator: "Marco Primo",
+    set: "Hunters & Hunted",
+  },
+
+  "hah-the-clubhouse": {
+    stack: "haven",
+    name: "The Clubhouse",
+    text: md`
+    Characters in your Haven have +1 Secrecy.
+    **Leader Ability**
+    At the start of your turn, draw 1 card for every 4 different Disciplines or Edges in your coterie, then discard 1 card.
+    `,
+    illustrator: "Marco Primo",
+    set: "Hunters & Hunted",
   },
 };
